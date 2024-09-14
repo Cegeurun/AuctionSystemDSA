@@ -1,6 +1,6 @@
 auction-system/                    # Root directory of the project
 ├── src/                           # Source files directory
-│   └── com/auction/            # Package for the auction system
+│   └── com/dsa/               # Package for the auction system
 │       ├── Main.java              # Main entry point for the application
 │       ├── WelcomeFrame.java      # Frame for welcome screen (Admin/Customer selection)
 │       ├── AdminPanel.java        # Frame for Admin actions (Add Item, Start Auction)

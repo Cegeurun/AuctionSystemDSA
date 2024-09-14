@@ -6,6 +6,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 
+import com.dsa.admin.AdminPanel;
+
 public class WelcomeFrame extends JPanel {
     private AuctionSystem system;
 
@@ -17,7 +19,7 @@ public class WelcomeFrame extends JPanel {
         JButton adminButton = new JButton("Admin");
         JButton customerButton = new JButton("Customer");
 
-        // adminButton.addActionListener(e -> system.showPanel(new AdminPanel(system)));
+        adminButton.addActionListener(e -> system.showPanel(new AdminPanel(system)));
         // customerButton.addActionListener(e -> system.showPanel(new CustomerPanel(system)));
 
         JPanel buttonPanel = new JPanel();

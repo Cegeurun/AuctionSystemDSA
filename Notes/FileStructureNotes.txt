@@ -1,6 +1,6 @@
 e.g. file struc [angas neto] 
 
-com/auction/
+com/dsa/
 │
 ├── Main.java                  # Entry point of the system
 ├── AuctionSystem.java         # Main class to manage and launch the auction system
