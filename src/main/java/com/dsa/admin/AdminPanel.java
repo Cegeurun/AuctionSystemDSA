@@ -5,7 +5,7 @@ import java.awt.BorderLayout;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-import javax.swing.JTable;
+import javax.swing.JTable;  
 
 import com.dsa.AuctionSystem; // Connectivity Overall SUPEFAST
 import com.dsa.WelcomeFrame;
@@ -32,7 +32,7 @@ public class AdminPanel extends JPanel {
         JButton closeButton = new JButton("Close");
 
         addItemButton.addActionListener(e -> handleAddItem());
-        // startAuctionButton.addActionListener(e -> handleStartAuction());
+        startAuctionButton.addActionListener(e -> handleStartAuction());
         closeButton.addActionListener(e -> system.showPanel(new WelcomeFrame(system)));
 
         controlPanel.add(addItemButton);

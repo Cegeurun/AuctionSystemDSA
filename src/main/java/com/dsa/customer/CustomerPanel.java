@@ -21,7 +21,7 @@ public class CustomerPanel extends JPanel {
         JButton addBidButton = new JButton("Add Bid"); 
         JButton closeButton = new JButton("Close");
 
-        // addBidButton.addActionListener(e -> handleBid());
+        addBidButton.addActionListener(e -> handleAddBid());
         closeButton.addActionListener(e -> system.showPanel(new WelcomeFrame(system)));
 
         controlPanel.add(new JLabel("Bidder Name: "));
@@ -35,7 +35,7 @@ public class CustomerPanel extends JPanel {
 
         // VISABLE TABLE of bid
 
-        // JTable bidTable = JTable();
+        // JTable bidTable = new JTable();
         // add(new JScrollPane(bidTable), BorderLayout.CENTER);
 
     }
